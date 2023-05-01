@@ -1,1 +1,1 @@
-# Python & C++ Solutions for Leetcode Problems
+# Python & C++ Solution for Leetcode Problems
