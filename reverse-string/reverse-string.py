@@ -3,4 +3,9 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        s.reverse()
+        stack = []
+        for char in s:
+            stack.append(char)
+    
+        for i in range(len(s)):
+            s[i] = stack.pop()
